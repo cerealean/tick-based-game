@@ -1,5 +1,5 @@
 import { GameObject } from "../game-object";
 
-export abstract class Building extends GameObject {
+export abstract class Unit extends GameObject {
     abstract readonly name: string;
 }
